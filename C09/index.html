@@ -220,7 +220,7 @@
       // Register the service worker.
       if (navigator.serviceWorker) {
           if (!navigator.serviceWorker.controller) {
-              navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'all' });
+              navigator.serviceWorker.register('./service-worker.js', { updateViaCache: 'all' });
           }
       }
   </script>
